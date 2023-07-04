@@ -1,6 +1,6 @@
 const express = require("express");
 require("dotenv").config();
-require("./db");
+require("db");
 const userRoute = require("./routes/userRoute");
 const app = express();
 const cookieParser = require("cookie-parser");
