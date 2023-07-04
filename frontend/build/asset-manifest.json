@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d701f82d.css",
+    "main.js": "/static/js/main.7f3dfa76.js",
+    "static/js/787.2e662a4b.chunk.js": "/static/js/787.2e662a4b.chunk.js",
+    "static/media/Login.png": "/static/media/Login.9910607e27e3b8f6e6fb.png",
+    "static/media/t-shirt-size-chart.jpg": "/static/media/t-shirt-size-chart.7cb0e6b85299ac0de787.jpg",
+    "static/media/cart.webp": "/static/media/cart.e95e08d9353c579bfe57.webp",
+    "index.html": "/index.html",
+    "main.d701f82d.css.map": "/static/css/main.d701f82d.css.map",
+    "main.7f3dfa76.js.map": "/static/js/main.7f3dfa76.js.map",
+    "787.2e662a4b.chunk.js.map": "/static/js/787.2e662a4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d701f82d.css",
+    "static/js/main.7f3dfa76.js"
+  ]
+}
