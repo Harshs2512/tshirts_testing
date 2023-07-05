@@ -1,10 +1,17 @@
 const mongoose = require('mongoose');
-const DB_URI = "mongodb+srv://harshsoni123:ucM3p2K7NiugYNoW@tshirthub.hha3dev.mongodb.net/?retryWrites=true&w=majority"
+require('dotenv').config();
+
+const MONGO_URI = process.env.MONGO_URI;
+
 mongoose
-.connect(DB_URI)
-.then(() => {
-console.log('db is connected!')
-})
-.catch((ex) => {
-console.log('db connection failed: ', ex)
-})
+  .connect(MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    console.log('DB is connected!');
+  })
+  .catch((ex) => {
+    console.log('DB connection failed:', ex);
+  });
+
